@@ -1,0 +1,14 @@
+$# LS-PrePost command file created by LS-PrePost(R) V4.7.22 -28Dec2020 -64bit-Window
+$# Created on Jul-12-2022 (13:11:46)
+open keyword "C:\Users\Kuanr\Dropbox\Work_in_progress\Honda_Task6_demo\grid_hybrid_demo\grid_polycube_connect.k"
+Message 1
+Message 0
+open keyword "C:\Users\Kuanr\Dropbox\Work_in_progress\Honda_Task6_demo\Ibeam_hybrid_demo\Ibeam_polycube_connect.k"
+Message 1
+Message 0
+open keyword "C:\Users\Kuanr\Desktop\Ibeam_indexPatch_hexdom_edit.k"
+Message 1
+Message 0
+genselect target element
+genselect element add shell 12989/2 
+elemmove apply 49 "Shell"
